@@ -1,5 +1,5 @@
 FLAGS=-Wall -O3
-LIBS=./lib/Parser.c
+LIBS=./lib/parser.c
 
 build:
 	gcc $(FLAGS) -o bin/main.exe src/main.c $(LIBS)

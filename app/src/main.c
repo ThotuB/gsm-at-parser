@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "../lib/Parser.h"
+#include "../lib/parser.h"
 
 void parse(FILE* file) {
     char current_char;
@@ -14,7 +14,8 @@ void parse(FILE* file) {
             case STATE_MACHINE_ERROR: {
                 return;
             }
-            case STATE_MACHINE_NOT_READY: break;
+            case STATE_MACHINE_NOT_READY:
+                break;
         }
     }
 }
