@@ -1,0 +1,30 @@
+
++CMGL: 1,"REC READ","Vodafone","","20/10/17,12:30:47+12"
+Buna ziua Va informam ca datele Dvs nu vor fi incluse in registrele publice ale abonatilor conform optiunii Dvs exprimate in acest sens.  O zi buna.
+
++CMGL: 2,"REC READ","+40722000001","","20/11/08,16:48:54+08"
+LalalalalLalLLLalalalala
+
+
++CMGL: 3,"REC UNREAD","+40722000001","","20/11/15,16:56:06+08"
+As engineers, we are going to be in a position to change the world, not just study it. Henry Petroski
+
++CMGL: 4,"REC UNREAD","+40722000001","","20/11/15,16:56:07+08"
+Truth can only be found in one place: the code. Robert C. Martin 
+
++CMGL: 5,"REC UNREAD","+40722000001","","20/11/15,16:56:07+08"
+You must make a habit of thinking in terms of a DEFINE objective. John Henry Patterson
+
++CMGL: 6,"REC UNREAD","+40722000001","","20/11/15,16:56:07+08"
+Once you stop learning, you start dying. Albert Einstein
+
++CMGL: 7,"REC UNREAD","+40722000001","","20/11/15,16:56:07+08"
+A fool's brain digests philosophy into folly, science into superstition, and art into pedantry. Hence University education. George Bernard Shaw
+
++CMGL: 8,"REC UNREAD","+40722000001","","20/11/15,16:56:07+08"
+The privilege of a university education is a great one; the more widely it is extended the better for any country. Winston Churchill
+
++CMGL: 9,"REC UNREAD","+40722000001","","20/11/15,16:56:07+08"
+An education isn't how much you have committed to memory, or even how much you know. It's being able to differentiate between what you know and what you don't.Anatole France
+
+OK

@@ -14,7 +14,8 @@ void parse(FILE* file) {
             case STATE_MACHINE_ERROR: {
                 return;
             }
-            case STATE_MACHINE_NOT_READY: break;
+            case STATE_MACHINE_NOT_READY:
+                break;
         }
     }
 }

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "Parser.h"
+#include "../lib/parser.h"
 
 void parse(FILE* file) {
     char current_char;
@@ -14,7 +14,8 @@ void parse(FILE* file) {
             case STATE_MACHINE_ERROR: {
                 return;
             }
-            case STATE_MACHINE_NOT_READY: break;
+            case STATE_MACHINE_NOT_READY:
+                break;
         }
     }
 }
@@ -25,8 +26,7 @@ int main(int argc, char* argv[]) {
         printf("usage: ./main.exe file.txt\n");
         printf("                  ^^^^^^^^\n");
         return EXIT_FAILURE;
-    }
-    else if (argc > 2) {
+    } else if (argc > 2) {
         printf("error: too many arguments\n");
         printf("usage: ./main.exe file.txt\n");
         return EXIT_FAILURE;
