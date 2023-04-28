@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "../lib/Parser.h"
+#include "Parser.h"
 
 void parse(FILE* file) {
     char current_char;
@@ -20,18 +20,28 @@ void parse(FILE* file) {
 }
 
 int main(int argc, char* argv[]) {
-    if (argc != 2) {
-        printf("error: wrong number of arguments\n");
-        printf("usage: ./main.exe sample.txt\n");
-        exit(EXIT_FAILURE);
+    if (argc < 2) {
+        printf("error: no file specified\n");
+        printf("usage: ./main.exe file.txt\n");
+        printf("                  ^^^^^^^^\n");
+        return EXIT_FAILURE;
+    }
+    else if (argc > 2) {
+        printf("error: too many arguments\n");
+        printf("usage: ./main.exe file.txt\n");
+        return EXIT_FAILURE;
     }
 
     const char* filename = argv[1];
     FILE* file = fopen(filename, "r");
 
-    if (file) {
-        parse(file);
-        fclose(file);
+    if (!file) {
+        printf("error: could not open file %s\n", filename);
+        return EXIT_FAILURE;
     }
+
+    parse(file);
+    fclose(file);
+
     return 0;
 }
